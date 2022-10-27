@@ -1,0 +1,18 @@
+<h1>Convert <%= @from_symbol%> to <%= @to_symbol%></h1>
+
+<ul>
+  
+  <li>
+    <a href="/forex/<%=@from_symbol%>/<%=@to_symbol%>">
+       1 <%=@from_symbol%> equals <%=@convert_rate%> <%=@to_symbol%>.
+    </a>
+  </li>
+
+</ul>
+
+
+
+
+<p>
+Go <a href="/forex/<%= @from_symbol%>"> back</a>
+</p>
